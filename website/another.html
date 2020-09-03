@@ -16,8 +16,9 @@
 </body>
 </html> -->
 
+<!--start
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
 	<meta charset="utf-8">
 	<title>Displaying images</title>
@@ -27,8 +28,23 @@
 		text-align: center;
 	}
 	h1{
-		color: rgb(237,200,0);
+		color: rgb(237,200,255);
 		font-style: italic;
+		text-align: center;
+		font-size: 60px;
+	}
+	h2.big{
+		font-size: 50px;
+		text-align: center;
+	}
+	#highlight{
+		color: rgb(255,0,255);
+		font-size: 30px;
+		background: rgb(0,0,225);
+	}
+	.good{
+		color: red;
+		font-size: 25px;
 		text-align: center;
 	}
 	</style>
@@ -36,9 +52,111 @@
 </head>
 <body>
 	<h1>My biodata</h1>
-	<img src="Prashant.jpg" width="560" height="375"><br>
-	<p>My name is Prashant and now currently I am learning a course on coursera. From there I learned to display pictures.</p>
+	<p >My name is <span class="good">Prashant</span> and now currently I am learning a course on coursera. From there I learned to display pictures.</p>
+	<h2 class="big">Heading 2</h2>
+	<p>Another paragraph with absolutely <span id="highlight">nothing</span>!!!</p>
 
 </body>
 </html>
+end-->
+
+<!--start
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Pseudo selector class</title>
+	<style>
+		header li{
+			list-style: none;
+		}
+		a:link, a:visited{
+			text-decoration: none;
+			background-color: green;
+			border: 1px solid blue;
+			color: white;
+			display: block;
+			width: 150px;
+			text-align: center;
+			margin-bottom: 1px
+
+		} 
+		a:hover, a:active{
+			background-color: red;
+			color: purple;
+		}
+		header li:nth-child(3){
+			font-size: 25px;
+		}
+		section div:nth-child(odd){
+			background-color: gray;
+			width: 100px;
+		}
+		section div:nth-child(4):hover{
+			background-color: red;
+			width: 100px;
+
+		}
+	</style>
+</head>
+<body>
+	<h1>Pseudo selector class</h1>
+<header>
+<ul>
+	<li><a href="https://www.facebook.com/" target="_blank">Facebook</a></li>
+	<li><a href="https://www.instagram.com/?hl=en" target="_blank">Instagram</a></li>
+	<li><a href="https://www.wikipedia.org/" target="_blank">Wikipedia</a></li>
+</ul>
+</header>
+
+<section>
+	<div>Div 1</div>
+	<div>Div 2</div>
+	<div>Div 3</div>
+	<div>Div 3</div>
+	<div>Div 4</div>
+	<div>Div 5</div>
+	<div>Div 6</div>
+	<div>Div 7</div>
+	<div>Div 8</div>
+	<div>Div 9</div>
+	<div>Div 10</div>
+</section>
+</body>
+</html>
+end-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Style placement</title>
+	<link rel="stylesheet" href="basic.css">
+	<style>
+		h2{
+			color: maroon;
+		}
+	</style>
+</head>
+<body>
+<h1>Style Placement</h1>
+<h2>Sub heading</h2>
+<p>This is to set the style placement of in <span class="special">HTML and CSS</span> in the course which I am learning right now!!!</p>
+<h2>Another sub heading</h2>
+<p style="text-align: center;">I am centered</p>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
 
