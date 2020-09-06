@@ -126,6 +126,7 @@ end-->
 </html>
 end-->
 
+<!--start
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -143,12 +144,136 @@ end-->
 <h2>Sub heading</h2>
 <p>This is to set the style placement of in <span class="special">HTML and CSS</span> in the course which I am learning right now!!!</p>
 <h2>Another sub heading</h2>
-<p style="text-align: center;">I am centered</p>
+<p style="text-align: center; font-size: 25px;">I am centered</p>
 </body>
 </html>
+end-->
 
+<!-- start
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Cascading style sheets</title>
+	<link rel="stylesheet" href="external.css">
+	<style>
+		p{
+			color: maroon;
+		}
+	</style>
+</head>
+<body>
+<h1>Origin example</h1>
+<p>The rule is simple: last declaration wins</p>
+<p style="color: black;">If there is no conflict, declarations merge into one rule.</p>
+</body>
+</html>
+end-->
 
+<!--start
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Cascade of CSS example</title>
+	<style>
+		body{
+			color: red;
+			text-align: center;
+			font-family: Helvetica;
+		}
+		p{
+			color: blue;
+		}
+	</style>
+</head>
+<body>
+<h1>Cascading of CSS example</h1>
+<h2>Subheading 1</h2>
+<p>Inheritance allows us to write more global styles on parent elements and then "fine-tune" the styles for some of the child elements as needed. Such approach nakes writing CSS very efficient.</p>
+<h2 style="color: green;">Subheading 2</h2>
+<p>The paragraph I saw on coursera was in different language so I worte a different paragraph of my own. Hope this works!!! </p>
+</body>
+</html>
+end-->
 
+<!--start
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Inheritance of CSS</title>
+	<style>
+		header.navigation p{
+			color: blue;
+		}
+		p.blurb{
+			color: red;
+		}
+		p{
+			color: green !important;
+		}
+	</style>
+</head>
+<body>
+<header class="navigation">
+	<p class="blurb">
+		The paragraph I saw on coursera was in different language so I worte a different paragraph of my own. Hope this works!!!
+	</p>
+</header>
+</body>
+</html>
+end-->
+
+<!--start
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Styling text</title>
+	<style>
+		.style{
+			font-family: Arial,Helvetica,sans-serif;
+			color: #0000ff;
+			font-style: italic;
+			font-weight: bold;
+			font-size: 24px;
+			text-transform: lowercase;
+			text-align: justify;
+		}
+	</style>
+</head>
+<body>
+<p>
+	The paragraph I saw on <span><a href="https://www.coursera.org/programs/k-c-college-of-engg-and-mgmt-studies-on-coursera-rr16x">coursera</a></span> was in different language so I worte a different paragraph of my own. Hope this works!!! 
+</p>
+<p class="style">
+	Yet another paragraph which I am writing because of the different language of coursera
+</p>
+</body>
+</html>
+end-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Setting font size</title>
+	<style>
+		body{
+			font-size: 120%;
+		}
+	</style>
+</head>
+<body>
+	<div>Regular text</div>
+	<div style="font-size: 2em;">2em text
+		<div style="font-size: 2em;">4em text
+			<div style="font-size: .5em">2em again!!</div>
+		</div>
+	</div>
+</body>
+</html>
 
 
 
