@@ -254,6 +254,7 @@ end-->
 </html>
 end-->
 
+<!--start
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -274,8 +275,162 @@ end-->
 	</div>
 </body>
 </html>
+end-->
+<!-- start
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>The box model</title>
+	<style>
+		*{
+			box-sizing: border-box;
+			margin: 0;
+			padding: 0;
+		}
+		body{
+			margin: 0;
+			padding: 0;
+			background-color: gray;
+		}
+		#box{
+			padding: 10px 10px 10px 10px;
+			border: 5px solid black;
+			margin: 40px;
+			width: 300px;
+			height: 10px;
+			overflow: auto;
+			background-color: blue;
+			margin-top: 50px;
+		}
+		#content{
+			background-color: #90EE90;
+		}
+		h1{
+			margin-bottom: 30px;
+		}
+	</style>
+</head>
+<body>
+<h1>The box model</h1>
+<div id="box">
+	<div id="content">The simplest difference between definition and defination is that definition is used for differences of a particular thing, idea or words while defination means to do something that defies the whole nation.</div>
+</div>
+</body>
+</html>
+end-->
 
+<!--start
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Background</title>
+	<style>
+		#bg{
+			width: 500px;
+			height: 500px;
+			background-color: blue;
+			background-image: url("Prashant.jpg");
+			background-repeat: no-repeat;
+			background-position: center;
+		}
+	</style>
+</head>
+<body>
+<h1>The background property</h1>
+<div id="bg">Background properties are fun!!!!</div>
+</body>
+</html>
+end-->
+<!--
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Floating Elements</title>
+	<style>
+		div{
+			background-color: #00FFFF;
+		}
+		p{
+			width: 50px;
+			height: 50px;
+			border: 1px solid black;
+		}
+		#p1{
+			background-color: #A52A2A;
+			float: left;
+			height: 150px;
+		}
+		#p2{
+			background-color: #DEB887;
+			float: right;
+			height: 100px;
+		}
+		#p3{
+			background-color: #FF7F50;
+			clear: both;
+		}
+		#p4{
+			background-color: #5F9EA0;
+		}
+		section{
+			clear: left;
+		}
+	</style>
+</head>
+<body>
+<h1>Floating elements</h1>
+<div>
+	<p id="p1"></p>
+	<p id="p2"></p>
+	<p id="p3"></p>
+	<p id="p4"></p>
+	<section>This is regular content continuing after the paragraph</section>
+</div>
+</body>
+</html>
+end-->
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Two column design</title>
+	<style>
+		*{
+			box-sizing: border-box;
+		}
+		div{
+			/*background-color: #00FFFF;*/
+		}
+		p{
+			width: 50%;
+			/*border: 1px solid black;*/
+			float: left;
+			padding: 10px;
+		}
+		#p1{
+			/*background-color: #A52A2A;*/
+		}
+		#p2{
+			/*background-color: #DEB887;*/
+		}
+		section{
+			clear: left;
+		}
+	</style>
+</head>
+<body>
+<h1>Two column design</h1>
+<div>
+	<p id="p1">The simplest difference between definition and defination is that definition is used for differences of a particular thing, idea or words while defination means to do something that defies the whole nation.</p>
+	<p id="p2">FOB DESTINATION POINT. Implies that the seller owns the goods in transit and is responsible for freight charges and assists with the settlement of claims and is responsible for full replacement of damaged items</p>
+	<section>This is regular content continuing after the paragraph.</section>
+</div>
+</body>
+</html>
 
 
 
