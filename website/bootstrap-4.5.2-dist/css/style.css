@@ -1,74 +1,116 @@
+*{
+	box-sizing: border-box;
+}
 body{
 	font-size: 16px;
-	color: #fff;
-	background-color: #61122f;
-	font-family: 'Oxygen', sans-serif;
+	background-color: #ffffff;
 }
 #header-nav{
-	background-color: #f6b319;
-	border-radius: 0;
+	padding-left: 30px;
+	background-color: #1E3787;
+}
+#imgdet{
+	height: 100px;
+	width: 100px;
+	margin: 0;
 	border: 0;
 }
-
-#logo-img{
-	background: url('restaurent-logo.png') no-repeat;
-	width: 150px;
-	height: 150px;
-	margin: 10px 15px 10px 0; 
-}
-
 .navbar-brand{
-	padding-top: 25px;
+	font-size: 50px;
+	color: white;
+	align-items: right;
+	font-family: 'David Libre', serif;
 }
-
 .navbar-brand h1{
-	font-family: 'Lora', serif;
-	color: #557c3e;
-	font-size: 1.5em;
-	text-transform: uppercase;
-	font-weight: bold;
-	text-shadow: 1px 1px 1px #222;
-	margin-top: 0;
-	margin-bottom: 0;
-	line-height: .75;
+	margin: 0;
 }
-
-.navbar-brand a:hover, .navbar-brand a:focus{
-	text-decoration: none;
-}
-
 .navbar-brand p{
-	color: #000;
-	text-transform: uppercase;
-	font-size: .7em;
-	margin-top: 15px;
+	padding-top: 0px;
+	font-size: 0.35em;
+
 }
-.navbar-brand p span{
-	vertical-align: middle;
+.formstyle{
+	color: white;
 }
-#nav-list{
-	margin-top: 10px;
+.formstyle td{
+	padding-right: 50px;
+	padding-bottom: 15px;
 }
-#nav-list a{
-	color: #951c49;
+.formstyle td input{
+	height: 35px;
+	width: 270px;
+	border-radius: 5px;
+}
+button{
+	border-radius: 5px;
+	font-size: 1.2em;
+	background-color: white;
+	width: 120px;
+	height: 40px;
+	margin: auto auto auto 180px;
+	transition: .2s;
+}
+button:hover{
+	background-color: #49E20E;
+	color: white;
+}
+.bodycontainer{
+	width: 0px;
+	margin-right: 0px;
+	height: 0px;
+}
+img{
+	height: 500px;
+	width: 700px;
+	margin: 70px auto 100px 100px;
+	border: 5px solid #66CD00;
+}
+.vertline{
+	border-left: 5px solid #C0C0C0;
+	border-radius: 3px;
+	height: 600px;
+	margin: 35px auto 100px 850px;
+	position: absolute;
+}
+.cracc{
+	margin: 70px 0 0 900px;
+	border: 2px solid gray;
+	border-radius: 20px;
+	width: 600px;
+	height: 450px
+}
+.cracc table{
+	margin: 30px 0 0 50px;
+}
+.cracc td{
+	padding-right: 50px;
+	padding-bottom: 15px;
+	font-size: 1.2em;
+}
+.cracc td input{
+	height: 35px;
+	width: 270px;
+	border-radius: 5px;
+}
+#confirmpassword{
+	margin: 30px auto auto 240px;
 	text-align: center;
 }
-#nav-list a:hover{
-	background: #e7e7e7;
+#createbutton{
+	border-radius: 5px;
+	font-size: 1.2em;
+	background-color: #1E3787;
+	color: white;
+	width: 200px;
+	height: 40px;
+	margin: 30px 0 0 210px;
+	transition: width .2s, height .2s, .2s;
 }
-#nav-list a span{
-	font-size: 1.8em;
+#createbutton:hover{
+	width: 210px;
+	height: 45px;
+	background-color: #32CD32;
 }
-#phone{
-	margin-top: 5px;
+@media (min-width: 1200px){
+	
 }
-#phone a{
-	text-align: right;
-	padding-bottom: 0;
-}
-#phone div{
-	color: #557c3e;
-	text-align: right;
-	padding-right: 15px;
-}
-
